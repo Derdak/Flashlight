@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/Txt_Helper"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:text="@string/txt_check"
+        android:textColor="@color/colorAccent" />
+
+    <ToggleButton
+        android:id="@+id/front_flash_Switch"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:textOff="@string/flash_front"
+        android:textOn="@string/flash_front_back" />
+
+    <ToggleButton
+        android:id="@+id/blink"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:background="@drawable/btn_off"
+        android:checked="false"
+        android:textColor="@color/colorAccent"
+        android:textOff=""
+        android:textOn="" />
+
+    <ImageView
+        android:id="@+id/imageFrontFlash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"
+        app:srcCompat="@android:color/background_light"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:max="100"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="Txt_Helper">Helper at the dark</string>
+    <string name="Developer_txt">Developed by Derdak\n If you find some error, contact me at it.janmelichar@gmail.com</string>
+    <string name="txt_check">Light, when phone sleeps.</string>
+    <string name="p_granted">Permission granted.</string>
+    <string name="p_denied">Permission denied.</string>
+    <string name="blinks">Flashlight blinks.</string>
+    <string name="flash_front">Front</string>
+    <string name="flash_front_back">Back</string>
+    <string name="blink_on">Blink</string>
+    <string name="blink_off">Off</string>
+    <string name="sorry">We are sorry, but your device is not supporting flashlight.</string>
+    <string name="errorX">Error: </string>
+
+
+</resources>

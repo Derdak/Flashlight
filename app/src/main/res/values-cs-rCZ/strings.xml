@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svítilna</string>
+    <string name="Txt_Helper">Pomocník ve tmě</string>
+    <string name="Developer_txt">Vývojář: Derdak\nNajdete-li nějakou chybu, kontaktujte mě na it.janmelichar@gmail.com</string>
+    <string name="txt_check">Svítí, i když telefon spí.</string>
+    <string name="p_granted">Povoleno.</string>
+    <string name="p_denied">Zamítnuto.</string>
+    <string name="blinks">Blikání baterky</string>
+    <string name="flash_front">Přední</string>
+    <string name="flash_front_back">Zpět</string>
+    <string name="blink_on">Blikání</string>
+    <string name="blink_off">Vypnout</string>
+    <string name="sorry">Omlouváme se, ale vaše zařízení nepodporuje baterku.</string>
+    <string name="errorX">Chyba: </string>
+</resources>
